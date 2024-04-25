@@ -52,7 +52,7 @@ df['VEHICLE CLASS']= label_encoder.fit_transform(df['VEHICLE CLASS'])
 df['TRANSMISSION']= label_encoder.fit_transform(df['TRANSMISSION'])
 df['FUEL']= label_encoder.fit_transform(df['FUEL'])
 
-
+st.write(df)
 
 
 
